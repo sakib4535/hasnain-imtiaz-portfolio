@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hasnain Imtiaz — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <header class="site-header" aria-label="Main">
+    <div class="container nav">
+      <div class="brand" aria-label="Home">
+        <div class="logo" aria-hidden="true"></div>
+        <h1>Hasnain Imtiaz</h1>
+      </div>
+      <nav class="desktop" aria-label="Primary">
+        <a href="#about" class="active">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">☀️</button>
+        <a class="btn ghost" href="#contact">Hire me</a>
+        <a class="btn" href="#projects">View Work</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero container">
+      <div class="hero-left">
+        <span class="kicker">Communication and Media Data Analyst • 2025</span>
+        <h2 class="typewriter" id="typewriter" aria-live="polite">Designing Elegant, Performant Algorithmic Solutions.</h2>
+        <p>I'm a communication-focused data scientist blending insightful data analysis with scalable ML solutions. My expertise in NLP, sentiment analysis, and network analysis drives impactful, maintainable code for complex data challenges.</p>
+        <div class="hero-cta">
+          <a class="btn" href="#projects">See projects</a>
+          <a class="btn secondary" href="#contact">Let's collaborate</a>
+        </div>
+        <div class="metrics" aria-label="Key stats">
+          <div class="metric"><b>5+</b><div>Years building</div></div>
+          <div class="metric"><b>40+</b><div>Projects shipped</div></div>
+          <div class="metric"><b>98%</b><div>Client satisfaction</div></div>
+        </div>
+      </div>
+      <div class="hero-right">
+        
+          <img src="images/sakib.jpeg" alt="Hasnain Imtiaz" style="width:100%;height:100%;object-fit:cover;border-radius:inherit;">
+          <div class="glow"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="container reveal">
+      <header>
+        <h3>About</h3>
+        <p>
+          I am a passionate trailblazer at the crossroads of machine learning, data science, and communication studies, armed with formidable expertise in 
+          advanced analytical methodologies, statistical modeling, and cutting-edge computational frameworks. My mission is to harness the power of natural language processing (NLP) 
+          to decode vast troves of textual data from both legacy and emerging media, while diving deep into social media engagement metrics to unlock transformative insights. My research ignites at 
+          the frontier of evolving language and framing strategies, driving a relentless pursuit to unravel how these forces shape public opinion and reshape information dynamics across diverse digital landscapes. 
+          I am committed to exposing thematic shifts, sentiment patterns, and narrative architectures within media content, while illuminating the pivotal role of media framing in molding audience perceptions and revolutionizing communication ecosystems. 
+          My academic goal is to become a professional communication data scientist, leveraging my skills to drive impactful innovation at the intersection of data and communication.
+        </p>
+      </header>
+      <div class="about-grid">
+        <div class="about-skill-card">
+          <span class="pill">What I do</span>
+          <ul class="what-i-do-list">
+            <li><span class="what-icon">🧑‍🔬</span> Qualitative Research Method</li>
+            <li><span class="what-icon">📊</span> Quantitative Research Method</li>
+            <li><span class="what-icon">🤖</span> Machine Learning</li>
+            <li><span class="what-icon">📈</span> Multivariate Analysis</li>
+            <li><span class="what-icon">🌐</span> Bayesian Inference & Bayesian Networks</li>
+            <li><span class="what-icon">🗣️</span> Discourse Analysis</li>
+            <li><span class="what-icon">🔤</span> Text Classification</li>
+            <li><span class="what-icon">💬</span> Natural Language Processing</li>
+            <li><span class="what-icon">🧩</span> Topic Modelling</li>
+            <li><span class="what-icon">😊</span> Sentiment Analysis</li>
+            <li><span class="what-icon">😮</span> Emotion Recognition</li>
+            <li><span class="what-icon">🚨</span> Anomaly Detection</li>
+            <li><span class="what-icon">📱</span> Social Media Data Mining</li>
+            <li><span class="what-icon">🦾</span> Large Language Model (LLM)</li>
+            <li><span class="what-icon">📊</span> Data Visualization & Reporting</li>
+            <li><span class="what-icon">⚙️</span> Scraping and Automation</li>
+            <li><span class="what-icon">🔢</span> Numerical Methods & Computation</li>
+            <li><span class="what-icon">🔗</span> API Interaction</li>
+          </ul>
+          <div class="spacer"></div>
+          <span class="pill">Toolbox</span>
+          <div class="tags" style="margin-top:8px">
+            <span class="tag">React</span>
+            <span class="tag">Next.js</span>
+            <span class="tag">Node</span>
+            <span class="tag">Postgres</span>
+            <span class="tag">Prisma</span>
+            <span class="tag">Tailwind</span>
+            <span class="tag">Docker</span>
+            <span class="tag">AWS</span>
+          </div>
+        </div>
+        <div class="skill-card professional-experience">
+          <span class="pill">Professional Experience</span>
+          <div class="exp-list">
+            <div class="exp-item">
+              <div class="exp-role"><b>🧑‍💼 Research Officer - Statistician</b></div>
+              <div class="exp-meta">International OnlineJournal Hub, Dhaka <span>2024–Present</span></div>
+              <ul>
+                <li>Applied survival analysis, tree-based algorithms (bagging and boosting), and classifiers on breast cancer, STEMI, and T2D data, and co-led AI medicine platform proposal for 25k+ UAE children (HealthX).</li>
+                <li>Spearheaded interdisciplinary research and prepared manuscripts in APA, MLA, and Chicago styles across Communication, Social Science, and Medical domains, while administering a rigorous peer review system ensuring reviewer selection, ethical compliance, and publication standards.</li>
+              </ul>
+            </div>
+            <div class="exp-item">
+              <div class="exp-role"><b>💻 Project Contributor - ML</b></div>
+              <div class="exp-meta">Omdena Egypt (Remote) <span>2023–2024</span></div>
+              <ul>
+                <li>Visualized and cleaned user interaction data (Python, Matplotlib, Seaborn).</li>
+              </ul>
+            </div>
+            <div class="exp-item">
+              <div class="exp-role"><b>📋 Project Management - Intern</b></div>
+              <div class="exp-meta">The Earth - NGO <span>Jan–Jun 2021</span></div>
+              <ul>
+                <li>Facilitated focus groups and interviews with 200+ youth and 10 local leaders on environmental issues.</li>
+                <li>Led stakeholder analysis and feasibility research for the Climate Talk initiative using mixed methods.</li>
+                <li>Managed social media outreach, reaching 50k+ users and driving 1,200+ public interactions on climate topics.</li>
+              </ul>
+            </div>
+            <div class="exp-item">
+              <div class="exp-role"><b>🔬 Research Assistant, Intern</b></div>
+              <div class="exp-meta">Microgovernance Research Initiatives <span>2021</span></div>
+              <ul>
+                <li>Supported the development of data-driven academic papers on media effects and information governance, contributing to the broader discourse on media regulation and public accountability.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-edu-card">
+        <span class="pill">Education</span>
+        <div class="edu-timeline">
+          <div class="edu-block">
+            <div class="edu-header">
+              <span class="edu-icon">📜</span>
+              <div>
+                <div class="edu-degree">Professional Certificate Course</div>
+                <div class="edu-major">Machine Learning Engineering</div>
+              </div>
+              <div class="edu-date">2023–2024</div>
+            </div>
+            <div class="edu-inst">Creative IT Institute, Dhaka, Bangladesh</div>
+            <div class="edu-area">Areas: Communication data science, Deep Learning, Anomaly Detection, Sentiment & Emotion Recognition, Boosting Algorithms, Python, Backend, API, Data Extraction</div>
+          </div>
+          <div class="edu-block">
+            <div class="edu-header">
+              <span class="edu-icon">🎓</span>
+              <div>
+                <div class="edu-degree">Bachelor of Social Science</div>
+                <div class="edu-major">Television, Film, and Media Studies</div>
+              </div>
+              <div class="edu-date">2017–2022</div>
+            </div>
+            <div class="edu-inst">University of Dhaka, Bangladesh</div>
+            <div class="edu-area">Areas: Content/Text/Data Analysis, Quantitative & Qualitative Methods, Information Theory & Extraction, Sentiment/Emotion/Agenda-settings</div>
+            <div class="edu-detail">CGPA: 3.43 (First Class)</div>
+            <div class="edu-award">🏅 General Scholarship 2023-24 (Academic Excellence, Bangladesh Govt. & University)</div>
+          </div>
+          <div class="edu-block">
+            <div class="edu-header">
+              <span class="edu-icon">🏫</span>
+              <div>
+                <div class="edu-degree">Higher Secondary Certificate</div>
+                <div class="edu-major">Science</div>
+              </div>
+              <div class="edu-date">GPA 4.83</div>
+            </div>
+            <div class="edu-inst">Birshrestha Munshi Abdur Rauf Public College, BGB Cantonment, Dhaka</div>
+            <div class="edu-detail">First Class</div>
+            <div class="edu-header" style="margin-top:10px;">
+              <span class="edu-icon">🏫</span>
+              <div>
+                <div class="edu-degree">Secondary School Certificate</div>
+                <div class="edu-major">Science</div>
+              </div>
+              <div class="edu-date">GPA 5.00</div>
+            </div>
+            <div class="edu-inst">Birshrestha Munshi Abdur Rauf Public College, BGB Cantonment, Dhaka</div>
+            <div class="edu-detail">First Class</div>
+          </div>
+        </div>
+      </div>
+      <style>
+        .about-grid {
+          display: grid;
+          grid-template-columns: 1.2fr 1.2fr;
+          gap: 28px;
+          margin-top: 32px;
+        }
+        .about-edu-card {
+          background: linear-gradient(120deg, var(--surface) 90%, var(--brand-2) 10%);
+          border: 1.5px solid color-mix(in oklab, var(--brand) 18%, transparent);
+          border-radius: 18px;
+          box-shadow: 0 2px 12px rgba(99,102,241,0.07);
+          padding: 22px 18px 18px 18px;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          min-width: 0;
+          margin-top: 28px;
+        }
+        .about-edu-card .pill {
+          margin-bottom: 18px;
+          background: color-mix(in oklab, var(--brand-2) 20%, transparent);
+          color: var(--brand-2);
+          font-weight: 700;
+          letter-spacing: 0.5px;
+          font-size: 1.08rem;
+        }
+        .edu-timeline {
+          display: flex;
+          flex-direction: column;
+          gap: 26px;
+        }
+        .edu-block {
+          background: color-mix(in oklab, var(--brand) 5%, var(--surface) 95%);
+          border-radius: 13px;
+          box-shadow: 0 1px 6px rgba(99,102,241,0.06);
+          padding: 18px 18px 14px 18px;
+          position: relative;
+          border-left: 4px solid var(--brand-2);
+        }
+        .edu-header {
+          display: flex;
+          align-items: center;
+          gap: 13px;
+          margin-bottom: 4px;
+        }
+        .edu-icon {
+          font-size: 1.5em;
+          color: var(--brand-2);
+        }
+        .edu-degree {
+          font-weight: 700;
+          font-size: 1.07rem;
+          color: var(--brand);
+        }
+        .edu-major {
+          font-size: 1.01rem;
+          color: var(--text);
+        }
+        .edu-date {
+          margin-left: auto;
+          font-size: 0.98rem;
+          color: var(--muted);
+          font-weight: 600;
+        }
+        .edu-inst {
+          font-size: 0.99rem;
+          color: var(--muted);
+          margin-bottom: 2px;
+        }
+        .edu-area {
+          font-size: 0.97rem;
+          color: var(--text);
+          margin-bottom: 2px;
+        }
+        .edu-detail {
+          font-size: 0.97rem;
+          color: var(--brand-2);
+        }
+        .edu-award {
+          font-size: 0.97rem;
+          color: var(--ok);
+          margin-top: 2px;
+        }
+        /* ...existing about-skill-card, what-i-do-list, and responsive styles... */
+        .about-skill-card {
+          background: var(--surface);
+          border: 1.5px solid color-mix(in oklab, var(--brand) 10%, transparent);
+          border-radius: 18px;
+          box-shadow: 0 2px 12px rgba(99,102,241,0.04);
+          padding: 22px 18px 18px 18px;
+          min-width: 0;
+        }
+        .what-i-do-list {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 10px 28px;
+          margin: 18px 0 0 0;
+          padding: 0;
+          list-style: none;
+          font-size: 1.01rem;
+        }
+        .what-i-do-list li {
+          background: color-mix(in oklab, var(--brand) 7%, var(--surface) 93%);
+          border-radius: 10px;
+          padding: 8px 14px 8px 0;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          box-shadow: 0 1px 4px rgba(99,102,241,0.06);
+          transition: background 0.2s;
+        }
+        .what-i-do-list li:hover {
+          background: color-mix(in oklab, var(--brand-2) 16%, var(--surface) 84%);
+        }
+        .what-icon {
+          font-size: 1.25em;
+          display: inline-block;
+          margin-right: 6px;
+          filter: drop-shadow(0 1px 2px rgba(99,102,241,0.08));
+        }
+        .professional-experience {
+          /* ...existing styles... */
+        }
+        @media (max-width: 1100px) {
+          .about-grid {
+            grid-template-columns: 1fr;
+          }
+        }
+        @media (max-width: 800px) {
+          .about-edu-card, .about-skill-card, .professional-experience {
+            margin-bottom: 18px;
+          }
+        }
+        @media (max-width: 700px) {
+          .what-i-do-list {
+            grid-template-columns: 1fr;
+          }
+        }
+      </style>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="container reveal">
+      <header>
+        <h3>Skills</h3>
+        <p>My main tools and technologies for data science, machine learning, and web app development.</p>
+      </header>
+      <div class="skills robust-skills">
+        <div class="skill-card robust">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="skill-logo" />
+          <div>
+            <div class="skill-title">Python</div>
+            <div class="skill-level">Expert</div>
+          </div>
+        </div>
+        <div class="skill-card robust">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas" class="skill-logo" />
+          <div>
+            <div class="skill-title">Pandas</div>
+            <div class="skill-level">Expert</div>
+          </div>
+        </div>
+        <div class="skill-card robust">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="NumPy" class="skill-logo" />
+          <div>
+            <div class="skill-title">NumPy</div>
+            <div class="skill-level">Expert</div>
+          </div>
+        </div>
+        <div class="skill-card robust">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikit-learn/scikit-learn-original.svg" alt="scikit-learn" class="skill-logo" />
+          <div>
+            <div class="skill-title">scikit-learn</div>
+            <div class="skill-level">Advanced</div>
+          </div>
+        </div>
+        <div class="skill-card robust">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" class="skill-logo" />
+          <div>
+            <div class="skill-title">TensorFlow</div>
+            <div class="skill-level">Intermediate</div>
+          </div>
+        </div>
+        <div class="skill-card robust">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch" class="skill-logo" />
+          <div>
+            <div class="skill-title">PyTorch</div>
+            <div class="skill-level">Intermediate</div>
+          </div>
+        </div>
+        <div class="skill-card robust">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/streamlit/streamlit-original.svg" alt="Streamlit" class="skill-logo" />
+          <div>
+            <div class="skill-title">Streamlit</div>
+            <div class="skill-level">Advanced</div>
+          </div>
+        </div>
+        <div class="skill-card robust">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" class="skill-logo" />
+          <div>
+            <div class="skill-title">Docker</div>
+            <div class="skill-level">Intermediate</div>
+          </div>
+        </div>
+        <div class="skill-card robust">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scipy/scipy-original.svg" alt="Scipy" class="skill-logo" />
+          <div>
+            <div class="skill-title">Scipy</div>
+            <div class="skill-level">Advanced</div>
+          </div>
+        </div>
+        <div class="skill-card robust">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/8/88/Statsmodels_logo.png" alt="Statsmodels" class="skill-logo" />
+          <div>
+            <div class="skill-title">Statsmodels</div>
+            <div class="skill-level">Intermediate</div>
+          </div>
+        </div>
+        <div class="skill-card robust">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg" alt="PySpark" class="skill-logo" />
+          <div>
+            <div class="skill-title">PySpark</div>
+            <div class="skill-level">Intermediate</div>
+          </div>
+        </div>
+        <div class="skill-card robust">
+          <img src="https://matplotlib.org/_static/images/logo2.svg" alt="Matplotlib" class="skill-logo" />
+          <div>
+            <div class="skill-title">Matplotlib</div>
+            <div class="skill-level">Advanced</div>
+          </div>
+        </div>
+        <div class="skill-card robust">
+          <img src="https://seaborn.pydata.org/_static/logo-wide-lightbg.svg" alt="Seaborn" class="skill-logo" />
+          <div>
+            <div class="skill-title">Seaborn</div>
+            <div class="skill-level">Advanced</div>
+          </div>
+        </div>
+        <div class="skill-card robust">
+          <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Huggingface" class="skill-logo" />
+          <div>
+            <div class="skill-title">Huggingface</div>
+            <div class="skill-level">Intermediate</div>
+          </div>
+        </div>
+        <div class="skill-card robust">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django" class="skill-logo" />
+          <div>
+            <div class="skill-title">Django</div>
+            <div class="skill-level">Intermediate</div>
+          </div>
+        </div>
+      </div>
+      <style>
+        .robust-skills {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+          gap: 24px;
+          margin-top: 32px;
+        }
+        .skill-card.robust {
+          display: flex;
+          align-items: center;
+          gap: 16px;
+          background: var(--surface);
+          border: 1px solid color-mix(in oklab, var(--muted) 24%, transparent);
+          border-radius: 16px;
+          padding: 18px 16px;
+          box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+          min-width: 0;
+        }
+        .skill-logo {
+          width: 40px;
+          height: 40px;
+          object-fit: contain;
+          background: #fff;
+          border-radius: 8px;
+          box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+          flex-shrink: 0;
+        }
+        .skill-title {
+          font-weight: 600;
+          font-size: 1.1rem;
+          color: var(--text);
+        }
+        .skill-level {
+          font-size: 0.95rem;
+          color: var(--muted);
+        }
+      </style>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="container reveal">
+      <header>
+        <h3>Projects</h3>
+        <p>Some of my featured work.</p>
+      </header>
+      <div class="grid project-showcase" id="projectGrid">
+        <article class="card project-card" data-cat="ml">
+          <div class="thumb project-thumb" style="background-image:url('images/cyber.webp')"></div>
+          <div class="content">
+            <h4>Advanced Persistent Threat (APT) Detection Framework</h4>
+            <p class="meta">NLP, Streamlit, Python</p>
+            <div class="tags"><span class="tag">NLP</span><span class="tag">Web App</span></div>
+            <div class="project-btn-row right-align">
+              <a class="btn" href="https://hasnain.streamlit.app/" target="_blank">View App</a>
+            </div>
+          </div>
+        </article>
+        <article class="card project-card" data-cat="ml">
+          <div class="thumb project-thumb" style="background-image:url('images/reddit.png')"></div>
+          <div class="content">
+            <h4>GamersHub: Text and Opinion Mining of Reddit Comments</h4>
+            <p class="meta">NLP, Sentiment Analysis, Quantitative</p>
+            <div class="tags"><span class="tag">NLP</span><span class="tag">Summarization</span></div>
+            <div class="project-btn-row right-align">
+              <a class="btn" href="https://github.com/sakib4535/Text-Mining-and-Opinion-Reddit" target="_blank">View App</a>
+            </div>
+          </div>
+        </article>
+        <article class="card project-card" data-cat="cv">
+          <div class="thumb project-thumb" style="background-image:url('images/multi.jpg')"></div>
+          <div class="content">
+            <h4>Multi-Label Text Sentiment Classification and Word Embedding Analysis: 'Thread' Social Media Application</h4>
+            <p class="meta">NLP, TensorFlow, Emotion Recognition</p>
+            <div class="tags"><span class="tag">CV</span><span class="tag">Detection</span></div>
+            <div class="project-btn-row right-align">
+              <a class="btn" href="https://github.com/sakib4535/Multi-Label-Text-Sentiment-Thread-Mobile-App" target="_blank">View App</a>
+            </div>
+          </div>
+        </article>
+        <article class="card project-card" data-cat="ml">
+          <div class="thumb project-thumb" style="background-image:url('images/churn.jpg')"></div>
+          <div class="content">
+            <h4>Telecommunication Customer Churn Prediction</h4>
+            <p class="meta">Artificial Neural Network, Deep Learning</p>
+            <div class="tags"><span class="tag">Emotion</span><span class="tag">DL</span></div>
+            <div class="project-btn-row right-align">
+              <a class="btn" href="https://github.com/sakib4535/Telecommunication-Customer-Churn-Prediction" target="_blank">View App</a>
+            </div>
+          </div>
+        </article>
+        <article class="card project-card" data-cat="ml">
+          <div class="thumb project-thumb" style="background-image:url('images/real.webp')"></div>
+          <div class="content">
+            <h4>Real-time Insights from Social Media Data</h4>
+            <p class="meta">Twitter API, Text Analysis</p>
+            <div class="tags"><span class="tag">Topic Modeling</span><span class="tag">NLP</span></div>
+            <div class="project-btn-row right-align">
+              <a class="btn" href="https://github.com/sakib4535/Projects-ML-Analytics/tree/main/Real-time%20Insights%20from%20Social%20Media%20Data" target="_blank">View App</a>
+            </div>
+          </div>
+        </article>
+        <article class="card project-card" data-cat="ml">
+          <div class="thumb project-thumb" style="background-image:url('images/social_media_miner.jpg')"></div>
+          <div class="content">
+            <h4>Social Media Data Miner</h4>
+            <p class="meta">Scraping, Data Mining, Python</p>
+            <div class="tags"><span class="tag">Social Media</span><span class="tag">Automation</span></div>
+            <div class="project-btn-row right-align">
+              <a class="btn" href="https://hasnain.streamlit.app/Social_Media_Miner" target="_blank">View App</a>
+            </div>
+          </div>
+        </article>
+      </div>
+      <style>
+        .project-showcase {
+          grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+          gap: 28px;
+          margin-top: 32px;
+        }
+        .project-card {
+          background: linear-gradient(120deg, var(--surface) 90%, var(--brand-2) 10%);
+          border: 1.5px solid color-mix(in oklab, var(--brand) 18%, transparent);
+          box-shadow: 0 4px 24px rgba(99,102,241,0.09);
+          transition: transform .18s cubic-bezier(.4,2,.6,1), box-shadow .18s;
+          cursor: pointer;
+          position: relative;
+          overflow: hidden;
+        }
+        .project-card:hover {
+          transform: translateY(-7px) scale(1.025);
+          box-shadow: 0 8px 32px 0 rgba(99,102,241,0.18);
+          z-index: 2;
+        }
+        .project-thumb {
+          min-height: 160px;
+          border-bottom: 2px solid var(--brand-2);
+          background-size: cover;
+          background-position: center;
+          border-radius: 0;
+          transition: filter .2s;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: relative;
+        }
+        .project-img-upload {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          opacity: 0.7;
+          z-index: 2;
+          cursor: pointer;
+        }
+        .project-thumb:hover .project-img-upload {
+          opacity: 1;
+        }
+        .project-img-preview {
+          position: absolute;
+          top: 0; left: 0; right: 0; bottom: 0;
+          object-fit: cover;
+          width: 100%;
+          height: 100%;
+          z-index: 1;
+        }
+        .project-btn-row {
+          width: 100%;
+          display: flex;
+          margin-top: 16px;
+        }
+        .project-btn-row.right-align {
+          justify-content: flex-end;
+        }
+      </style>
+      <script>
+        function previewProjectImg(input) {
+          const file = input.files[0];
+          if (!file) return;
+          const reader = new FileReader();
+          const preview = input.parentElement.querySelector('.project-img-preview');
+          reader.onload = function(e) {
+            preview.src = e.target.result;
+            preview.style.display = 'block';
+          };
+          reader.readAsDataURL(file);
+        }
+      </script>
+    </section>
+
+    <section class="container center" aria-hidden="true">
+      <a class="btn ghost" href="#">Back to top</a>
+    </section>
+    <!-- VISUALIZATIONS -->
+    <section id="visualizations" class="container reveal">
+      <header>
+        <h3>Visualizations</h3>
+        <p>Explore some of my favorite data visualizations and analytical graphics.</p>
+      </header>
+      <div class="visuals-scroll-gallery">
+        <!-- Replace src/alt/text with your actual images and captions -->
+        <div class="visual-scroll-track">
+          <div class="visual-card">
+            <div class="visual-img-wrap">
+              <img src="images/one.png" alt="Visualization 1" loading="lazy" />
+              <div class="visual-overlay"><span>Impact of Social Media</span></div>
+            </div>
+          </div>
+          <div class="visual-card">
+            <div class="visual-img-wrap">
+              <img src="images/two.png" alt="Visualization 2" loading="lazy" />
+              <div class="visual-overlay"><span>Time Series Analysis</span></div>
+            </div>
+          </div>
+          <div class="visual-card">
+            <div class="visual-img-wrap">
+              <img src="images/three.png" alt="Visualization 3" loading="lazy" />
+              <div class="visual-overlay"><span>Political Affiliation</span></div>
+            </div>
+          </div>
+          <div class="visual-card">
+            <div class="visual-img-wrap">
+              <img src="images/four.png" alt="Visualization 4" loading="lazy" />
+              <div class="visual-overlay"><span>Games Ratings Analysis</span></div>
+            </div>
+          </div>
+          <div class="visual-card">
+            <div class="visual-img-wrap">
+              <img src="images/five.png" alt="Visualization 5" loading="lazy" />
+              <div class="visual-overlay"><span>Liver Cirrhosis Prediction</span></div>
+            </div>
+          </div>
+          <div class="visual-card">
+            <div class="visual-img-wrap">
+              <img src="images/six.png" alt="Visualization 6" loading="lazy" />
+              <div class="visual-overlay"><span>Word Embedding Clusters</span></div>
+            </div>
+          </div>
+          <div class="visual-card">
+            <div class="visual-img-wrap">
+              <img src="images/seven.png" alt="Visualization 7" loading="lazy" />
+              <div class="visual-overlay"><span>Time Series Forecasting</span></div>
+            </div>
+          </div>
+          <div class="visual-card">
+            <div class="visual-img-wrap">
+              <img src="images/eight.png" alt="Visualization 8" loading="lazy" />
+              <div class="visual-overlay"><span>LLM Attention Map</span></div>
+            </div>
+          </div>
+          <div class="visual-card">
+            <div class="visual-img-wrap">
+              <img src="images/nine.png" alt="Visualization 9" loading="lazy" />
+              <div class="visual-overlay"><span>API Data Extraction Flow</span></div>
+            </div>
+          </div>
+          <div class="visual-card">
+            <div class="visual-img-wrap">
+              <img src="images/visual10.jpg" alt="Visualization 10" loading="lazy" />
+              <div class="visual-overlay"><span>Media Framing Analysis</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <style>
+        .visuals-scroll-gallery {
+          overflow-x: auto;
+          padding-bottom: 8px;
+          margin-top: 32px;
+        }
+        .visual-scroll-track {
+          display: flex;
+          gap: 28px;
+          min-width: 100%;
+        }
+        .visual-card {
+          background: var(--surface);
+          border-radius: 16px;
+          box-shadow: 0 2px 12px rgba(99,102,241,0.07);
+          overflow: hidden;
+          position: relative;
+          min-width: 320px;
+          max-width: 340px;
+          flex: 0 0 320px;
+          transition: transform 0.18s cubic-bezier(.4,2,.6,1), box-shadow .18s;
+          cursor: pointer;
+        }
+        .visual-card:hover {
+          transform: translateY(-6px) scale(1.03);
+          box-shadow: 0 8px 32px 0 rgba(99,102,241,0.13);
+          z-index: 2;
+        }
+        .visual-img-wrap {
+          position: relative;
+          width: 100%;
+          aspect-ratio: 16/10;
+          overflow: hidden;
+        }
+        .visual-img-wrap img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          display: block;
+          transition: filter 0.2s;
+        }
+        .visual-card:hover img {
+          filter: brightness(0.7) blur(1px);
+        }
+        .visual-overlay {
+          position: absolute;
+          left: 0; right: 0; bottom: 0;
+          background: linear-gradient(0deg, rgba(40,40,80,0.82) 70%, transparent 100%);
+          color: #fff;
+          padding: 16px 18px 10px 18px;
+          font-size: 1.04rem;
+          font-weight: 600;
+          opacity: 0.92;
+          pointer-events: none;
+          border-bottom-left-radius: 16px;
+          border-bottom-right-radius: 16px;
+          transition: background 0.2s;
+        }
+        .visual-card:hover .visual-overlay {
+          background: linear-gradient(0deg, var(--brand-2) 80%, transparent 100%);
+          color: #fff;
+        }
+        @media (max-width: 600px) {
+          .visual-card {
+            min-width: 220px;
+            max-width: 240px;
+            flex-basis: 220px;
+          }
+        }
+      </style>
+    </section>
+  </main>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="container reveal">
+      <header>
+        <h3>Kind Words</h3>
+        <p>Feedback from collaborators and clients.</p>
+      </header>
+      <div class="carousel" aria-roledescription="carousel" aria-label="Testimonials">
+        <div class="slides" id="slides">
+          <div class="slide">
+            <p class="quote">“Jane is rare: a designer who codes and an engineer with taste. She elevated our product and our process.”</p>
+            <div class="by">— Sam R., CTO</div>
+          </div>
+          <div class="slide">
+            <p class="quote">“From kickoff to launch, she communicated clearly and delivered beyond expectations. We hit our metrics early.”</p>
+            <div class="by">— Priya K., PM</div>
+          </div>
+          <div class="slide">
+            <p class="quote">“Our lighthouse scores jumped to 99+ and our customers noticed. She’s my first call for front‑end excellence.”</p>
+            <div class="by">— Lucas M., Founder</div>
+          </div>
+        </div>
+        <div class="c-ctrl" aria-label="Carousel controls">
+          <button class="btn ghost" id="prev">◀</button>
+          <button class="btn ghost" id="next">▶</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="container reveal">
+      <header>
+        <h3>Contact</h3>
+        <p>Tell me about your project. I’ll respond within a day.</p>
+      </header>
+      <form id="contactForm" novalidate>
+        <div>
+          <label class="sr" for="name">Name</label>
+          <input id="name" name="name" placeholder="Your name" required />
+        </div>
+        <div>
+          <label class="sr" for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="you@company.com" required />
+        </div>
+        <div class="full">
+          <label class="sr" for="message">Message</label>
+          <textarea id="message" name="message" placeholder="What are we building together?" required></textarea>
+        </div>
+        <div class="full" style="display:flex; gap:10px; align-items:center">
+          <button class="btn" type="submit">Send message</button>
+          <span id="formStatus" aria-live="polite"></span>
+        </div>
+      </form>
+    </section>
+
+    
+
+  <footer>
+    <div class="container">
+      © <span id="year"></span> Hasnain Imtiaz — 2025
+    </div>
+  </footer>
+
+  <!-- PROJECT MODAL -->
+  <dialog class="modal" id="projectModal" aria-labelledby="modalTitle">
+    <div class="modal-head">
+      <h4 id="modalTitle">Case Study</h4>
+      <button class="btn ghost" id="closeModal" aria-label="Close">✕</button>
+    </div>
+    <div class="modal-body">
+      <img id="modalImg" alt="Project preview" loading="lazy" />
+      <div>
+        <p id="modalDesc"></p>
+        <div class="spacer"></div>
+        <a class="btn" href="#" id="modalLink" target="_blank" rel="noreferrer noopener">Open project</a>
+      </div>
+    </div>
+  </dialog>
+
+  <button class="top-btn" id="toTop" aria-label="Back to top">↑</button>
+
+  <script>
+    // ---- Theme toggle ----
+    const themeToggle = document.getElementById('themeToggle');
+    const prefersLight = window.matchMedia('(prefers-color-scheme: light)');
+    const applyTheme = (t) => document.documentElement.setAttribute('data-theme', t);
+    const saved = localStorage.getItem('theme');
+    applyTheme(saved || (prefersLight.matches ? 'light' : 'dark'));
+    themeToggle.textContent = document.documentElement.getAttribute('data-theme') === 'light' ? '🌙' : '☀️';
+    themeToggle.addEventListener('click', () => {
+      const now = document.documentElement.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+      applyTheme(now); localStorage.setItem('theme', now); themeToggle.textContent = now === 'light' ? '🌙' : '☀️';
+    });
+
+    // ---- Typewriter effect ----
+    const typeText = [
+'Shipping captivating digital interactions via DL-powered research.',
+'Designing elegant research with ML sentiment analysis.',
+'Turning complex data into simple ML/DL interfaces.'
+];
+    const tw = document.getElementById('typewriter');
+    let ti = 0, ci = 0, del = false;
+    function loopType(){
+      const word = typeText[ti % typeText.length];
+      if(!del){ ci++; tw.textContent = word.slice(0, ci); if(ci === word.length){ del = true; setTimeout(loopType, 1200); return; } }
+      else { ci--; tw.textContent = word.slice(0, ci); if(ci === 0){ del = false; ti++; } }
+      setTimeout(loopType, del ? 30 : 55);
+    }
+    setTimeout(loopType, 900);
+
+    // ---- Reveal on scroll ----
+    const io = new IntersectionObserver((entries)=>{
+      entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('visible'); io.unobserve(e.target); } });
+    }, {threshold:.12});
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+    // ---- Skills bars ----
+    document.querySelectorAll('.bar > span').forEach(el => {
+      const width = el.style.getPropertyValue('--val') || '0%';
+      requestAnimationFrame(()=>{ el.style.width = width; });
+    });
+
+    // ---- Project filters ----
+    const chips = Array.from(document.querySelectorAll('.chip'));
+    const grid = document.getElementById('projectGrid');
+    chips.forEach(ch => ch.addEventListener('click', ()=>{
+      chips.forEach(c=>c.classList.remove('active'));
+      ch.classList.add('active');
+      const f = ch.dataset.filter;
+      Array.from(grid.children).forEach(card => {
+        card.style.display = (f === 'all' || card.dataset.cat === f) ? 'flex' : 'none';
+      });
+    }));
+
+    // ---- Project modal ----
+    const modal = document.getElementById('projectModal');
+    const modalTitle = document.getElementById('modalTitle');
+    const modalImg = document.getElementById('modalImg');
+    const modalDesc = document.getElementById('modalDesc');
+    const modalLink = document.getElementById('modalLink');
+    document.querySelectorAll('[data-modal]').forEach(btn => {
+      btn.addEventListener('click', ()=>{
+        const data = JSON.parse(btn.getAttribute('data-modal'));
+        modalTitle.textContent = data.title;
+        modalImg.src = data.img;
+        modalDesc.textContent = data.desc;
+        modalLink.href = data.link || '#';
+        modal.showModal();
+      });
+    });
+    document.getElementById('closeModal').addEventListener('click', ()=> modal.close());
+
+    // ---- Carousel ----
+    const slides = document.getElementById('slides');
+    const next = document.getElementById('next');
+    const prev = document.getElementById('prev');
+    let idx = 0;
+    function move(dir){ idx = (idx + dir + slides.children.length) % slides.children.length; slides.style.transform = `translateX(-${idx*100}%)`; }
+    next.addEventListener('click', ()=> move(1));
+    prev.addEventListener('click', ()=> move(-1));
+    setInterval(()=> move(1), 6000);
+
+    // ---- Contact form (demo validation only) ----
+    const form = document.getElementById('contactForm');
+    const status = document.getElementById('formStatus');
+    form.addEventListener('submit', (e)=>{
+      e.preventDefault();
+      const data = Object.fromEntries(new FormData(form).entries());
+      if(!data.name || !data.email || !data.message){ status.textContent = 'Please fill all fields.'; status.style.color = 'var(--warn)'; return; }
+      const validEmail = /.+@.+\..+/.test(data.email);
+      if(!validEmail){ status.textContent = 'Enter a valid email.'; status.style.color = 'var(--danger)'; return; }
+      status.textContent = 'Thanks! I will get back to you shortly.'; status.style.color = 'var(--ok)';
+      form.reset();
+    });
+
+    // ---- Back to top ----
+    const toTop = document.getElementById('toTop');
+    window.addEventListener('scroll', ()=>{
+      toTop.classList.toggle('show', window.scrollY > 500);
+    });
+    toTop.addEventListener('click', ()=> window.scrollTo({top:0, behavior:'smooth'}));
+
+    // ---- Active nav link on scroll ----
+    const links = Array.from(document.querySelectorAll('header nav a'));
+    const sections = links.map(a => document.querySelector(a.getAttribute('href')));
+    const spy = new IntersectionObserver((entries)=>{
+      entries.forEach(e=>{
+        const i = sections.indexOf(e.target);
+        if(e.isIntersecting){ links.forEach(l=>l.classList.remove('active')); links[i].classList.add('active'); }
+      });
+    }, { threshold:.6 });
+    sections.forEach(sec => sec && spy.observe(sec));
+
+    // ---- Year ----
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
